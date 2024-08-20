@@ -11,7 +11,6 @@ const AddEmployees = () => {
   const dispatch = useDispatch()
 
   const dataDispatch = () => {
-    //  console.log(empName)
     dispatch(addEmployee(empName))
     setEmpName("")
   }
